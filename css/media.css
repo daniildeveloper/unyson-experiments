@@ -1,0 +1,39 @@
+/*
+  etra small devices
+ */
+.fw-container{
+  padding: 15px;
+  margin: 0 auto;
+}
+@media screen  and (max-width: 782px){
+  .fw-container{
+    width: 750px;
+  }
+}
+
+/**
+ * small devices and tablets
+ */
+@media screen (min-width: 783px) and (max-width: 900px) {
+    .fw-container{
+      width: 780px;
+    }
+}
+
+/**
+ * medium devices: desktops;
+ */
+@media screen (min-width: 901px) and (max-width: 1199px){
+  .fw-container{
+    width: 970px;
+  }
+}
+
+/**
+ * large devices
+ */
+@media screen (min-width: 1200px) {
+  .fw-container{
+    width: 1170px;
+  }
+}
